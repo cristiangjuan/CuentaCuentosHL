@@ -157,7 +157,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	
 	protected static int[][] cuadroTexto_002_01_light = {
 		
-		{R.drawable.vic_002_ct001_l001_w001_light, R.drawable.vic_002_ct001_l001_w002_light, R.drawable.vic_002_ct001_l001_w003_light}
+		{R.drawable.vic_002_ct001_l001_w001_light_purple, R.drawable.vic_002_ct001_l001_w002_light_purple, R.drawable.vic_002_ct001_l001_w003_light_purple}
 	};
 	
 	protected static int[][] cuadroTexto_002_02 = {
@@ -167,7 +167,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	
 	protected static int[][] cuadroTexto_002_02_light = {
 		
-		{R.drawable.vic_002_ct002_l001_w001_light}
+		{R.drawable.vic_002_ct002_l001_w001_light_purple}
 	};
 	
 	protected static int[][] cuadroTexto_002_03 = {
@@ -177,7 +177,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	
 	protected static int[][] cuadroTexto_002_03_light = {
 		
-		{R.drawable.vic_002_ct003_l001_w001_light, R.drawable.vic_002_ct003_l001_w002_light}
+		{R.drawable.vic_002_ct003_l001_w001_light_purple, R.drawable.vic_002_ct003_l001_w002_light_purple}
 	};
 	
 	protected static int[][] cuadroTexto_002_04 = {
@@ -188,8 +188,8 @@ public abstract class ReadActivity extends FragmentActivity {
 	
 	protected static int[][] cuadroTexto_002_04_light = {
 		
-		{R.drawable.vic_002_ct004_l001_w001_light, R.drawable.vic_002_ct004_l001_w002_light},
-		{R.drawable.vic_002_ct004_l002_w001_light}
+		{R.drawable.vic_002_ct004_l001_w001_light_blue2, R.drawable.vic_002_ct004_l001_w002_light_blue2},
+		{R.drawable.vic_002_ct004_l002_w001_light_blue2}
 	};
 	
 	protected static int[][] cuadroTexto_002_05 = {
@@ -226,8 +226,8 @@ public abstract class ReadActivity extends FragmentActivity {
 	
 	protected static int[][] cuadroTexto_002_07_light = {
 		
-		{R.drawable.vic_002_ct007_l001_w001_light,R.drawable.vic_002_ct007_l001_w002_light,R.drawable.vic_002_ct007_l001_w003_light},
-		{R.drawable.vic_002_ct007_l002_w001_light,R.drawable.vic_002_ct007_l002_w002_light}
+		{R.drawable.vic_002_ct007_l001_w001_light_pink,R.drawable.vic_002_ct007_l001_w002_light_pink,R.drawable.vic_002_ct007_l001_w003_light_pink},
+		{R.drawable.vic_002_ct007_l002_w001_light_pink,R.drawable.vic_002_ct007_l002_w002_light_pink}
 	};
 	
 	protected static int[][][] matrizCT_002 = {
