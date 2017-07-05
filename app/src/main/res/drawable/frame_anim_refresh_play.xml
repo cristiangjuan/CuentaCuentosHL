@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_resfresh_play" android:oneshot="true" >
+    
+    <item android:drawable="@drawable/ic_refresh_white_36dp" android:duration="25" />
+    <item android:drawable="@drawable/refresh_button_36dp_01" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_02" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_03" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_04" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_05" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_06" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_07" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_08" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_09" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_10" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_11" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_12" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_13" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_14" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_15" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_16" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_17" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_18" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_19" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_20" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_21" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_22" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_23" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_24" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_25" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_26" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_27" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_28" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_29" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_30" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_31" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_32" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_33" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_34" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_35" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_36" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_37" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_38" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_39" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_40" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_41" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_42" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_43" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_44" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_45" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_46" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_47" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_48" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_49" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_50" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_51" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_52" android:duration="25" /> -->
+<!--     <item android:drawable="@drawable/refresh_button_36dp_53" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_54" android:duration="25" />
+    
+<!--  Empieza reduccion de triangulo de play -->
+    
+    <item android:drawable="@drawable/refresh_button_36dp_55" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_56" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_57" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_58" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_59" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_60" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_61" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_62" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_63" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_64" android:duration="25" /> -->
+    
+    <item android:drawable="@drawable/refresh_button_36dp_65" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_66" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_67" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_68" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_69" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/refresh_button_36dp_70" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_71" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_72" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_73" android:duration="25" />
+<!--     <item android:drawable="@drawable/refresh_button_36dp_74" android:duration="25" /> -->
+    <item android:drawable="@drawable/refresh_button_36dp_75" android:duration="25" />
+    <item android:drawable="@drawable/refresh_button_36dp_76" android:duration="25" />
+    <item android:drawable="@drawable/ic_play_white_36dp" android:duration="25" />
+    
+    <!-- Frames elapsed = 17 -->
+
+</animation-list>

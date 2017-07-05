@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--   	 Tiempos animaciones transición menú principal - actividad principal -->
+
+    <!-- CLASIFICADAS -->
+
+    <!--     Estándar   -->
+    <!--     Tiempo de animación de click en botón estándar-->
+    <integer name="scale_click">150</integer>
+    <!--     Tiempo de animación de espera en una animación de icono (on/off)-->
+    <integer name="wait_icon_animation">500</integer>
+    <!--     Tiempo de animación de espera en una animación de icono (on/off)-->
+    <integer name="wait_icon_animation_long">750</integer>
+
+    <!--    Transición Main -> Read -->
+    <!--     Tiempo de retraso de animación de reveal grande -->
+    <integer name="delay_unveal_read">200</integer>
+
+    <!--    READ -->
+    <!--     Tiempo de animación de mostrar los controles centrales del autoplay -->
+    <integer name="show_center_controls">400</integer>
+    <integer name="show_hide_refresh">500</integer>
+    <integer name="rotateRefresh">300</integer>
+    <integer name="rotateClose">400</integer>
+    <!--     Tiempo de animación de esconder los controles del autoplay -->
+    <integer name="hide_controls">300</integer>
+    <integer name="hide_progressbar">1500</integer>
+    <integer name="delay_show_first">100</integer>
+    <integer name="delay_show_second">200</integer>
+    <integer name="delay_show_third">300</integer>
+    <integer name="delay_show_fourth">400</integer>
+    <integer name="hide_num_page">400</integer>
+    <integer name="show_num_page">500</integer>
+    <integer name="hide_highlight">600</integer>
+    <!--     Tiempo de animación finalizar autoplay -->
+    <integer name="scale_autoplay_end">700</integer>
+    <integer name="reduce_autoplay_end">1500</integer>
+    <integer name="heartbeat_autoplay_end">800</integer>
+    <integer name="heartbeat_autoplay_like">800</integer>
+
+    <!--    TOOL buttons -->
+    <integer name="tool_btn_color_transition">200</integer>
+    <integer name="tool_btn_scale">400</integer>
+
+    <!--    Transición Actividades -->
+    <!--     Reveals    -->
+    <!--     Tiempo de reveal standard -->
+    <integer name="reveal_standard">600</integer>
+    <!--     Tiempo de reveal standard de retorno -->
+    <integer name="reveal_standard_return">600</integer>
+    <!--     Tiempo de reveal standard de retorno -->
+    <integer name="reveal_read_return">500</integer>
+    <!--     Tiempo de unveal standard -->
+    <integer name="unveal_standard">800</integer>
+    <!--     Tiempo de unveal largo -->
+    <integer name="unveal_long">900</integer>
+    <!--     Tiempo de retraso de reveal like -->
+    <integer name="delay_reveal_standard_return">50</integer>
+    <!--     Tiempo de retraso de animación reveal effect restart -->
+    <integer name="delay_restart_reveal">600</integer>
+
+    <!--     Explosión/ocultación elementos del menú principal -->
+    <!--     Tiempo de retraso de animación de ocultación de la barra inferior de color -->
+    <integer name="delay_color_bar">500</integer>
+    <!--     Tiempo de animación de ocultación de la barra inferior de color -->
+    <integer name="translate_color_bar">800</integer>
+    <!--     Tiempo de retraso de animación de aparición del logo  -->
+    <integer name="delay_show_logo">100</integer>
+    <!-- 	Tiempo de animación de aparición de logo -->
+    <integer name="translate_show_logo">600</integer>
+    <!-- 	Tiempo de animación de ocultación de logo -->
+    <integer name="translate_hide_logo">600</integer>
+    <!--     Tiempo de retraso de animación de muestra de los botones -->
+    <integer name="delay_logo_btns">300</integer>
+    <!--     Tiempo de animación de muestra de los botones -->
+    <integer name="show_logo_btns">400</integer>
+    <!--     Tiempo de animación de esconder los controles de las pantallas de logo-->
+    <integer name="hide_logo_btns_reverse">600</integer>
+    <!--     Tiempo de animación de ocultación de los botones -->
+    <integer name="hide_logo_btns">200</integer>
+    <!-- 	Tiempo de animación de aparición de logo -->
+    <integer name="translate_play">500</integer>
+    <!-- 	Tiempo de animación de aparición de logo -->
+    <integer name="translate_return">600</integer>
+    <!--     Tiempo de delay de la transición del botón de play a la actividad READ -->
+    <integer name="delay_play_transition">100</integer>
+
+    <!--     HeartBeats   -->
+    <integer name="heart_beat_play">1200</integer>
+    <integer name="heart_beat_arrow">1200</integer>
+    <integer name="heart_beat_music">1600</integer>
+    <integer name="heart_beat_music_half">800</integer>
+    <integer name="heart_beat_back">2000</integer>
+    <integer name="heart_beat_slow">3000</integer>
+    <integer name="heart_beat_next_page">800</integer>
+
+    <!--     Tiempos de animaciones preReveal y preSocial buttons -->
+    <integer name="pre_hide_standard">150</integer>
+    <integer name="pre_hide_close">200</integer>
+    <integer name="hide_standard">250</integer>
+    <integer name="hide_close">400</integer>
+    <integer name="show_standard">350</integer>
+    <integer name="hide_reveal_play">300</integer>
+    <integer name="rotate_standard">350</integer>
+
+    <!--     Tiempos de animaciones changeIcon buttons -->
+    <integer name="change_icon_standard">200</integer>
+    <integer name="change_icon_background_scale">200</integer>
+
+    <!--     Tiempos de animaciones social y arrow buttons -->
+    <integer name="alpha_show_btns">50</integer>
+
+    <!--     Tiempos de animaciones social buttons -->
+    <integer name="delay_show_social_btns">0</integer>
+    <integer name="show_social_btns">1000</integer>
+    <integer name="delay_hide_social_btns">200</integer>
+    <integer name="delay_hide_share_btn">400</integer>
+    <integer name="delay_hide_play_btn">500</integer>
+    <integer name="hide_social_btns">500</integer>
+    <integer name="delay_reduce_background_social">100</integer>
+    <integer name="reduce_background_btn_social">400</integer>
+    <integer name="delay_augment_background_social">400</integer>
+    <integer name="augment_background_btn_social">200</integer>
+
+    <integer name="delay_show_social_text">600</integer>
+    <integer name="show_social_text">600</integer>
+    <integer name="hide_social_text">400</integer>
+
+    <!--     Tiempos de animaciones arrow buttons -->
+    <integer name="delay_show_arrow_btns">0</integer>
+    <integer name="show_arrow_btns">800</integer>
+    <integer name="hide_arrow_btns">500</integer>
+    <integer name="delay_hide_more">200</integer>
+    <integer name="delay_reduce_background_arrow">100</integer>
+    <integer name="reduce_background_btn_arrow">500</integer>
+    <integer name="delay_augment_background_arrow">200</integer>
+    <integer name="augment_background_btn_arrow">200</integer>
+
+    <!--     Tiempos de animaciones hidden info credits -->
+    <integer name="reduce_logo_hidden_info">500</integer>
+    <integer name="translate_logo_hidden_info">500</integer>
+    <integer name="translate_main_text_hidden_info">500</integer>
+    <integer name="alpha_return_hidden_info">200</integer>
+    <integer name="alpha_return_hidden_info_2">300</integer>
+    <integer name="alpha_return_hidden_info_3">400</integer>
+    <integer name="delay_first_line_hidden_info">200</integer>
+    <integer name="delay_second_line_hidden_info">250</integer>
+    <integer name="delay_third_line_hidden_info">300</integer>
+    <integer name="delay_first_line_hidden_info_return">50</integer>
+    <integer name="delay_second_line_hidden_info_return">100</integer>
+    <integer name="delay_third_line_hidden_info_return">200</integer>
+    <integer name="delay_logo_hidden_info_return">300</integer>
+
+    <!--    Tiempos animaciones ajustes -->
+    <integer name="show_ajustes">300</integer>
+    <integer name="hide_ajustes">300</integer>
+
+    <!-- Tiempos fin Autoplay en ReadStandard -->
+    <integer name="show_restart">800</integer>
+    <integer name="delay_like">100</integer>
+    <integer name="show_like">700</integer>
+    <integer name="hide_restart">600</integer>
+    <integer name="hide_like">400</integer>
+
+
+</resources>

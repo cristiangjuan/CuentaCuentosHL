@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/anim_volume_off_on" android:oneshot="true" >
+    
+    
+    <item android:drawable="@drawable/ic_volume_off_white_18dp" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_32" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_31" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_30" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_29" android:duration="25" />
+    
+    <item android:drawable="@drawable/volume_button_18dp_28" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_27" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_26" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_25" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_24" android:duration="25" /> -->
+    
+    <item android:drawable="@drawable/volume_button_18dp_23" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_22" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_21" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_20" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_19" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/volume_button_18dp_18" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_17" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_16" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_15" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_14" android:duration="25" />
+    
+    <item android:drawable="@drawable/volume_button_18dp_13" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_12" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_11" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_10" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_09" android:duration="25" /> -->
+    
+    <item android:drawable="@drawable/volume_button_18dp_08" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_07" android:duration="25" />
+<!--     <item android:drawable="@drawable/volume_button_18dp_06" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_05" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_04" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/volume_button_18dp_03" android:duration="25" /> -->
+    <item android:drawable="@drawable/volume_button_18dp_02" android:duration="25" />
+    <item android:drawable="@drawable/volume_button_18dp_01" android:duration="25" />
+    <item android:drawable="@drawable/ic_volume_high_white_18dp" android:duration="25" />
+    
+    <!-- Frames elapsed = 17 -->
+    
+</animation-list>

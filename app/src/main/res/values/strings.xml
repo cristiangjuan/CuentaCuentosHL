@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CuentaCuentos</string>
+
+    <string name="log_text_string_1">Hola! Soy</string>
+    <string name="log_text_string_2">Vicen</string>
+    <string name="log_text_string_3">Bookidding</string>
+    <string name="like_text_1">¿Te ha gustado?</string>
+    <string name="like_subtext">¡Échanos una mano!</string>
+    <string name="like_share_text">Comparte</string>
+    <string name="like_rate_text">Puntúa</string>
+    <string name="like_donate_text">Dona</string>
+    <string name="main_manual_text">Manual</string>
+    <string name="main_autoplay_text">Autoplay</string>
+    <string name="main_play_text">Cuentacuentos</string>
+    <string name="info_book_category">Un cuento de</string>
+    <string name="info_book_name">Bookidding</string>
+    <string name="info_book_web">www.bookidding.com</string>
+    <string name="info_book_tlf">617895234</string>
+    <string name="info_book_mail">bookidding@bookidding.es</string>
+    <string name="info_ilus_category">Ilustrado por</string>
+    <string name="info_ilus_name">Jorge de Juan</string>
+    <string name="info_ilus_web">www.bookidding.com</string>
+    <string name="info_ilus_tlf">617895234</string>
+    <string name="info_ilus_mail">jorge@ilustracioneditorial.es</string>
+    <string name="info_prog_category">Desarrollado por</string>
+    <string name="info_prog_name">Cristian Gómez</string>
+    <string name="info_prog_tlf">617895234</string>
+    <string name="info_prog_mail">cristiangj@gmail.com</string>
+    <string name="info_escr_category">Escrito por</string>
+    <string name="info_escr_name">José Manuel Heredia</string>
+    <string name="info_narr_category">Narrado por</string>
+    <string name="info_narr_name">Jacinta Benavente</string>
+    <string name="info_music_category">Música de</string>
+    <string name="info_music_name">Kevin MacLeod</string>
+    <string name="info_music_web">incompetech.com</string>
+    <string name="info_music_songs">Melodie Victoria, Music Box Theme</string>
+    <string name="info_music_license_1">Licensed under Creative Commons: By Attribution 3.0</string>
+    <string name="info_music_license_2">http://creativecommons.org/licenses/by/3.0/</string>
+    <string name="title_activity_like">LikeActivity</string>
+</resources>

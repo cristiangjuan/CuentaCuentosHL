@@ -1,0 +1,154 @@
+<resources>
+
+    <!--    *********************** Estáticos y compartidos *******************************   -->
+    <!--     Distancias disposición pantallas logo: Main, Like, Info y Read -->
+    <!--     Diámetro del botón de play -->
+    <dimen name="diameter_play_btn">60dp</dimen>
+    <!-- Diámetro de la progressBar mismo tamaño que play_btn más el padding x 2(-1?) -->
+    <dimen name="diameter_progress_bar">79dp</dimen>
+    <!-- Padding progressBar -->
+    <dimen name="padding_progress_bar">10dp</dimen>
+    <!-- Thickness progressBar -->
+    <dimen name="thickness_progress_bar">3.5dp</dimen>
+    <!--     Diámetro del botón de play -->
+    <dimen name="diameter_play_btn_big">60dp</dimen>
+    <!--     Diámetro de los botones de la barra de controle en la pantalla Main -->
+    <dimen name="diameter_logo_btns">45dp</dimen>
+    <!--     Altura de la barra de color inferior del menú principal -->
+    <dimen name="color_bar_height">50dp</dimen>
+    <!--     Padding del play_btn: (Doble color layout - diametro del botón) / 2 -->
+    <dimen name="margin_play_btn">20dp</dimen>
+    <!--     Padding del play_btn: (Doble color layout - diametro del botón) / 2 -->
+    <dimen name="margin_play_btn_big">20dp</dimen>
+    <!--     ColorBar x 2  -->
+    <dimen name="logo_margin_bottom">100dp</dimen>
+    <!--     Altura del texto de los boton de play en main, algo más que el social -->
+    <dimen name="margin_vertical_main_play_text">92dp</dimen>
+    <!--     Altura del texto de los boton de play en main, algo más que el social -->
+    <dimen name="margin_vertical_main_autoplay_text">85dp</dimen>
+    <!-- **************** Like Activity **************** -->
+    <!--     ColorBar x 2  -->
+    <dimen name="logo_margin_bottom_like">100dp</dimen>
+    <!--     Diámetro de los botones de créditos -->
+    <dimen name="diameter_divide_btn">50dp</dimen>
+    <!--     Margen de los botones social -->
+    <dimen name="margin_horizontal_divide_btn">200dp</dimen>
+    <!--     Padding de los botones social: (Doble color layout - diametro del botón) / 2 -->
+    <dimen name="margin_vertical_divide_btn">25dp</dimen>
+    <!--     Altura del texto de los botones social, algo menos que el doble de color_bar -->
+    <dimen name="margin_vertical_like_text">82.5dp</dimen>
+    <!--  ************** Info Activity ***************** -->
+    <!--     Diámetro de los botones flechas en pantalla info -->
+    <dimen name="diameter_arrow_btn">45dp</dimen>
+    <!--     Padding de los botones info: (Doble color layout - diametro del botón) / 2 -->
+    <dimen name="margin_vertical_arrow_btn">27.5dp</dimen>
+    <!--     Margen de los botones info -->
+    <dimen name="margin_horizontal_arrow_btn">120dp</dimen>
+    <!--     Margen de los botones info -->
+    <dimen name="margin_main_text_hidden_info_visible">244dp</dimen>
+    <dimen name="margin_main_text_hidden_info_not_visible">124dp</dimen>
+    <dimen name="margin_hidden_first">216dp</dimen>
+    <dimen name="margin_hidden_second">188dp</dimen>
+    <dimen name="margin_hidden_third">160dp</dimen>
+    <dimen name="margin_hidden_first_music">221dp</dimen>
+    <dimen name="margin_hidden_second_music">196dp</dimen>
+    <dimen name="margin_hidden_third_music">156dp</dimen>
+    <!-- 3/4 de colorBar x 2 + 5dp -->
+    <dimen name="margin_stepdots">80dp</dimen>
+    <dimen name="diameter_stepdots">7dp</dimen>
+    <dimen name="margin_between_info_text">3dp</dimen>
+    <!--     Texto superior info -->
+    <dimen name="superior_text">22sp</dimen>
+    <!--     Texto superior info -->
+    <dimen name="inferior_text">16sp</dimen>
+    <!--     Texto superior info -->
+    <dimen name="hidden_text">12sp</dimen>
+    <!--     Distancias transiciones hidden info credits -->
+    <dimen name="translate_logo_hidden_info">70dp</dimen>
+    <dimen name="translate_logo_hidden_info_to_hide">250dp</dimen>
+    <!-- Diferencia entre info_visible e info_not_visible -->
+    <dimen name="translate_main_text_hidden_info">120dp</dimen>
+    <dimen name="translate_hidden_info">120dp</dimen>
+    <!--     Distancias controles ReadActivity -->
+    <dimen name="hide_num_page">20dp</dimen>
+    <!--     Distancia de animación esconder controles -->
+    <dimen name="hide_controls">150dp</dimen>
+    <!-- Read Activity -->
+    <!--     Diámetro de los botones de la barra de controles en la pantalla Read -->
+    <dimen name="diameter_tool_btns">50dp</dimen>
+    <!--     Diámetro del botón refresh -->
+    <dimen name="diameter_refresh_btn">50dp</dimen>
+    <!--     Diámetro de los botones de la barra de controles en la pantalla Read -->
+    <dimen name="diameter_numpage_">50dp</dimen>
+    <!--     Margen del botón refresh -->
+    <dimen name="margin_refresh_btn">85dp</dimen>
+    <!--     Margen del botón like en pantalla de Read -->
+    <dimen name="margin_like_btn">100dp</dimen>
+    <!--     Margen superior de tool buttons -->
+    <dimen name="margin_tool_top">20dp</dimen>
+    <!--     Margen superior de highlight option button -->
+    <dimen name="margin_highlight_option_top">75dp</dimen>
+    <!--     Margen horizontal de botón tool -->
+    <dimen name="margin_tool_1">20dp</dimen>
+    <!--     Margen horizontal de botón tool -->
+    <dimen name="margin_tool_2">105dp</dimen>
+    <!--     Margen horizontal de botón tool -->
+    <dimen name="margin_tool_3">190dp</dimen>
+    <!--     Margen horizontal de botón tool -->
+    <dimen name="margin_close">25dp</dimen>
+    <!--     Margen horizontal de highlight button 1 -->
+    <dimen name="margin_highlight_option_1">245dp</dimen>
+    <!--     Margen horizontal de highlight button 2 -->
+    <dimen name="margin_highlight_option_2">165dp</dimen>
+
+    <!--     Read Standard -->
+    <!-- tool diameter 50dp -->
+    <!-- Padding progressBar -->
+    <dimen name="padding_progress_bar_tool">5dp</dimen>
+    <!-- Diámetro de la progressBar mismo tamaño que tool_btn más el padding x 2(-2?) -->
+    <dimen name="diameter_progress_bar_tool">58dp</dimen>
+    <!--     Margen derecho de los controles -->
+    <dimen name="margin_right_standard">20dp</dimen>
+    <!--     +85dp desde primer margen -->
+    <dimen name="margin_play_tool_btn">105dp</dimen>
+    <!--     Margen horizontal de botón tool (diam progress - diam play) /2 -->
+    <dimen name="margin_tool_progress_bar">101dp</dimen>
+    <!--     Margen vertical de botón tool restamos (diam progress - diam play) /2 -->
+    <dimen name="margin_top_progress_bar">16dp</dimen>
+    <!--     +85dp desde play -->
+    <dimen name="margin_refresh_tool_btn">190dp</dimen>
+    <!--    Desplazamiento +85dp x 2 -->
+    <dimen name="translate_ajustes">170dp</dimen>
+    <!--    Desplazamiento +85dp -->
+    <dimen name="translate_ajustes_2">85dp</dimen>
+
+    <!--    *********************** Fuentes *******************************   -->
+    <dimen name="main_text">30sp</dimen>
+    <dimen name="main_text_big">32sp</dimen>
+    <dimen name="sub_text">16sp</dimen>
+    <dimen name="play_btn_text">16sp</dimen>
+    <dimen name="like_btns">14sp</dimen>
+    <!--     Tamaño de la fuente del nº de pág -->
+    <dimen name="numpage_fontSize">16sp</dimen>
+
+    <!--    *********************** Animaciones *******************************   -->
+    <!--     Distancias de transición a actividad Read -->
+    <!--     Distancia de animación translate de color_bar -->
+    <dimen name="translate_color_bar">100dp</dimen>
+    <!--     Distancia de animación translate de los logos -->
+    <dimen name="translate_logos">600dp</dimen>
+    <!--     Distancia de animación translate de los botones Main -->
+    <dimen name="translate_logo_btns">200dp</dimen>
+    <!--     Distancia de animación translate de los logos -->
+    <dimen name="translate_logo_btns_reverse">600dp</dimen>
+
+
+    <!--     Elevaciones botones -->
+    <dimen name="button_elevation">4dp</dimen>
+    <dimen name="button_high_elevation">8dp</dimen>
+    <dimen name="button_higher_elevation">12dp</dimen>
+    <dimen name="button_over_elevation">13dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+</resources>

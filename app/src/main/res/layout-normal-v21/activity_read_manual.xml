@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout_slide"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+    
+    <customs.CustomViewPagerManual
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/slide_pager"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	</customs.CustomViewPagerManual>
+	
+    <FrameLayout
+	    android:id="@+id/controls_top_left"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+        <ImageButton
+	            android:id="@+id/btn_close"
+	            android:layout_width="@dimen/diameter_tool_btns"
+	            android:layout_height="@dimen/diameter_tool_btns"
+	            android:src="@drawable/ic_close_white_18dp"
+	            android:background="@drawable/ripple_toolbar_btn"
+	            android:elevation="@dimen/button_higher_elevation"
+                android:layout_gravity="start|top"
+                android:layout_marginStart="@dimen/margin_close"
+                android:layout_marginTop="@dimen/margin_tool_top">
+	    </ImageButton>
+	</FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/controls_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_numPage"
+            android:layout_width="@dimen/diameter_tool_btns"
+            android:layout_height="@dimen/diameter_tool_btns"
+            android:layout_gravity="end|bottom"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/margin_right_standard"
+            android:layout_marginBottom="20dp"
+            android:elevation="@dimen/button_high_elevation"
+            android:background="@drawable/ripple_toolbar_btn" >
+
+            <LinearLayout
+                android:id="@+id/layout_numPage_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tview_numPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="gravity"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/numpage_fontSize" />
+
+                <TextView
+                    android:id="@+id/tview_numPage_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="gravity"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/numpage_fontSize" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/revealLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_accent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tview_reveal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:textAlignment="gravity"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/main_text"
+                android:textStyle="bold"
+                android:text="@string/main_manual_text"/>
+
+            <ImageView
+                android:id="@+id/reveal_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_book_open_page_variant_white_36dp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
