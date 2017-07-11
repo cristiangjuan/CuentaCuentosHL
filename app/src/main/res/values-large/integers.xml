@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Reducción reveal 100%-->
+    <!--     Tiempo de reveal standard -->
+    <integer name="reveal_standard">600</integer>
+    <!--     Tiempo de reveal standard de retorno -->
+    <integer name="reveal_standard_return">600</integer>
+    <!--     Tiempo de reveal standard de retorno -->
+    <integer name="reveal_read_return">500</integer>
+    <!--     Tiempo de unveal standard -->
+    <integer name="unveal_standard">800</integer>
+    <!--     Tiempo de unveal largo -->
+    <integer name="unveal_long">900</integer>
+</resources>

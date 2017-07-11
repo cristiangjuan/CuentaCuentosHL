@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_anim_music_off_on" android:oneshot="true" >
+    
+    
+    <item android:drawable="@drawable/ic_music_note_off_white_24dp" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_32" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_31" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_30" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_29" android:duration="25" />
+    
+    <item android:drawable="@drawable/music_button_24dp_28" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_27" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_26" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_25" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_24" android:duration="25" /> -->
+    
+    <item android:drawable="@drawable/music_button_24dp_23" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_22" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_21" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_20" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_19" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/music_button_24dp_18" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_17" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_16" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_15" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_14" android:duration="25" />
+    
+    <item android:drawable="@drawable/music_button_24dp_13" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_12" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_11" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_10" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_09" android:duration="25" /> -->
+    
+    <item android:drawable="@drawable/music_button_24dp_08" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_07" android:duration="25" />
+<!--     <item android:drawable="@drawable/music_button_24dp_06" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_05" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_04" android:duration="25" />
+    
+<!--     <item android:drawable="@drawable/music_button_24dp_03" android:duration="25" /> -->
+    <item android:drawable="@drawable/music_button_24dp_02" android:duration="25" />
+    <item android:drawable="@drawable/music_button_24dp_01" android:duration="25" />
+    <item android:drawable="@drawable/ic_music_note_white_24dp" android:duration="25" />
+    
+    <!-- Frames elapsed = 17 -->
+    
+</animation-list>

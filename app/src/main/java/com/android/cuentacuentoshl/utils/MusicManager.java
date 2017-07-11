@@ -18,7 +18,7 @@ public class MusicManager {
      */
     private final static Integer[] voices = new Integer[] {
 
-            R.raw.voice_001_test
+            R.raw.vicen_smurf_001_i2_sp75_t10, R.raw.vicen_smurf_002_i2_sp75_t10_200cut
     };
 
     private static MediaPlayer mediaPlayerMusic;
