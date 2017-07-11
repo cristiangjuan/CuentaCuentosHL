@@ -81,7 +81,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	 */
 	protected final static Integer[] voices = new Integer[] {
 	    
-		R.raw.voice_001_test
+		R.raw.vicen_smurf_001_i2_sp75_t10, R.raw.vicen_smurf_002_i2_sp75_t10_200cut
 	};
 	
 	
@@ -90,30 +90,46 @@ public abstract class ReadActivity extends FragmentActivity {
 	 */
 	protected final static Integer[] pages_ct = new Integer[] {
 	    
-		R.drawable.vic_00001_ct, R.drawable.vic_00002_ct,
+		R.drawable.vic_00001_ct_alpha, R.drawable.vic_00002_ct,
 		R.drawable.vic_00003_ct,R.drawable.vic_00004_ct,
 		R.drawable.vic_00005_ct,R.drawable.vic_00006_ct,
 		R.drawable.vic_00007_ct
 	};
-	
+
+    /**
+     * Cuadro de texto compuesto de líneas que contienen palabras.
+     */
+    protected static int[][] cuadroTexto_001_01 = {
+
+            {R.drawable.vic_001_ct001_l001_w001_alpha, R.drawable.vic_001_ct001_l001_w002_alpha, R.drawable.vic_001_ct001_l001_w003_alpha}
+    };
+
+    /**
+     * Cuadro de texto compuesto de líneas que contienen palabras.
+     */
+    protected static int[][] cuadroTexto_001_01_light = {
+
+            {R.drawable.vic_001_ct001_l001_w001_alpha_pink, R.drawable.vic_001_ct001_l001_w002_alpha_pink, R.drawable.vic_001_ct001_l001_w003_alpha_pink}
+    };
+
 	/**
 	 * Cuadro de texto compuesto de líneas que contienen palabras.
 	 */
-	protected static int[][] cuadroTexto_001_01 = {
+	protected static int[][] cuadroTexto_001_02 = {
 		
-		{R.drawable.vic_001_ct001_l001_w001_alpha, R.drawable.vic_001_ct001_l001_w002_alpha, R.drawable.vic_001_ct001_l001_w003_alpha, R.drawable.vic_001_ct001_l001_w004_alpha},
-		{R.drawable.vic_001_ct001_l002_w001_alpha, R.drawable.vic_001_ct001_l002_w002_alpha, R.drawable.vic_001_ct001_l002_w003_alpha, R.drawable.vic_001_ct001_l002_w004_alpha},
-		{R.drawable.vic_001_ct001_l003_w001_alpha, R.drawable.vic_001_ct001_l003_w002_alpha, R.drawable.vic_001_ct001_l003_w003_alpha, R.drawable.vic_001_ct001_l003_w004_alpha}
+		{R.drawable.vic_001_ct002_l001_w001, R.drawable.vic_001_ct002_l001_w002, R.drawable.vic_001_ct002_l001_w003, R.drawable.vic_001_ct002_l001_w004},
+		{R.drawable.vic_001_ct002_l002_w001, R.drawable.vic_001_ct002_l002_w002, R.drawable.vic_001_ct002_l002_w003, R.drawable.vic_001_ct002_l002_w004},
+		{R.drawable.vic_001_ct002_l003_w001, R.drawable.vic_001_ct002_l003_w002, R.drawable.vic_001_ct002_l003_w003, R.drawable.vic_001_ct002_l003_w004}
 	};
 	
 	/**
 	 * Cuadro de texto compuesto de líneas que contienen palabras.
 	 */
-	protected static int[][] cuadroTexto_001_01_light = {
+	protected static int[][] cuadroTexto_001_02_light = {
 		
-		{R.drawable.vic_001_ct001_l001_w001_light_alpha, R.drawable.vic_001_ct001_l001_w002_light_alpha, R.drawable.vic_001_ct001_l001_w003_light_alpha, R.drawable.vic_001_ct001_l001_w004_light_alpha},
-		{R.drawable.vic_001_ct001_l002_w001_light_alpha, R.drawable.vic_001_ct001_l002_w002_light_alpha, R.drawable.vic_001_ct001_l002_w003_light_alpha, R.drawable.vic_001_ct001_l002_w004_light_alpha},
-		{R.drawable.vic_001_ct001_l003_w001_light_alpha, R.drawable.vic_001_ct001_l003_w002_light_alpha, R.drawable.vic_001_ct001_l003_w003_light_alpha, R.drawable.vic_001_ct001_l003_w004_light_alpha}
+		{R.drawable.vic_001_ct002_l001_w001_light, R.drawable.vic_001_ct002_l001_w002_light, R.drawable.vic_001_ct002_l001_w003_light, R.drawable.vic_001_ct002_l001_w004_light},
+		{R.drawable.vic_001_ct002_l002_w001_light, R.drawable.vic_001_ct002_l002_w002_light, R.drawable.vic_001_ct002_l002_w003_light, R.drawable.vic_001_ct002_l002_w004_light},
+		{R.drawable.vic_001_ct002_l003_w001_light, R.drawable.vic_001_ct002_l003_w002_light, R.drawable.vic_001_ct002_l003_w003_light, R.drawable.vic_001_ct002_l003_w004_light}
 	};
 	
 	/**
@@ -121,7 +137,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	 */
 	protected static int[][][] matrizCT_001 = {
 		
-		cuadroTexto_001_01
+		cuadroTexto_001_01, cuadroTexto_001_02
 	};
 	
 	/**
@@ -129,7 +145,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	 */
 	protected static int[][][] matrizCT_001_light = {
 		
-		cuadroTexto_001_01_light
+		cuadroTexto_001_01_light, cuadroTexto_001_02_light
 	};
 	
 	/**
@@ -137,17 +153,7 @@ public abstract class ReadActivity extends FragmentActivity {
 	 */
 	protected static Point[] arrayPositionsCT_001 = {
 		
-		new Point(1606, 626)
-	};
-	
-	/**
-	 * Contiene los tiempos de cada línea dentro de un cuadro de texto
-	 */
-	protected static int[][][] arrayTimesCT_001 = {
-		
-		//Como tiene mas de || dos años, ya hace || cosas de niño grande
-		//La vampira estaba muy || emocionada pues la noche || de las brujas se|| acercaba
-		{{250,500,350,400},{750,175,175,300},{200,200,400,150}} 
+		new Point(330, 84), new Point(1606, 626)
 	};
 	
 	protected static int[][] cuadroTexto_002_01 = {
@@ -333,15 +339,41 @@ public abstract class ReadActivity extends FragmentActivity {
 			new Point(165,100), new Point(243,393), new Point(1688,82),
 			new Point(1785,1575), new Point(1700,1675), new Point(1800,1760)
 	};
+
+	/**
+	 * Contiene los tiempos de cada línea dentro de un cuadro de texto
+	 */
+	protected static int[][][] arrayTimesCT_001 = {
+
+            {{400,250,950}},// Este es Vicen
+            {{400,350,250,100},{200,950,250,250},{350,150,350,600}} //Como tiene mas de || dos años, ya hace || cosas de niño grande
+
+			//La vampira estaba muy || emocionada pues la noche || de las brujas se|| acercaba
+			//{{250,500,350,400},{750,175,175,300},{200,200,400,150}}
+	};
 	
 	protected static int[][][] arrayTimesCT_002 = {
-		{{400,800,400}}, //Ya sube al
-		{{800}}, //tobogán
-		{{400,600}}, //sin ayuda...
-		{{600,400},{800}}, // Monta en || triciclo
-		{{600},{600}}, //Come solo
-		{{800,400,800,400},{600,400,400,400,600},{600,400,400,400,600}}, //Incluso ha aprendido a || hacer pis en el váter || Vicen se cree muy mayor
-		{{400,400,600,400},{400,400}} //Soy muy mayor y || molo mucho
+		{{300,350,200}},
+        //Ya sube al
+        //2100 2450 2650
+		{{500}},
+        //tobogán
+        //3150
+		{{200,1150}},
+        //sin ayuda...
+        //3350,4500
+		{{450,150},{1150}},
+        // Monta en || triciclo
+        //4950,5100,6250
+		{{300},{900}},
+        //Come solo
+        //6550,7450
+		{{700,300,500,100},{250,250,100,150,900},{550,250,200,200,1100}},
+        //Incluso ha aprendido a || hacer pis en el váter || Vicen se cree muy mayor
+        //8150,8450,8950,9050 || 9300,9550,9650,9800,10700 || 11250,11500,11700,11900,13000
+		{{500,350,100,400},{250,5000}}
+        //Soy mayor y || molo mucho
+        //13500,13850,13950 || 14200,14700
 	};
 
 	protected static int[][][] arrayTimesCT_003 = {

@@ -76,15 +76,15 @@ public class Constants {
 		/**
 		 * Retraso inicial en la animacion de subtítulos
 		 */
-		public static final int INITIAL_DELAY = 1500;
+		public static final int INITIAL_DELAY = 2000;
 		/**
 		 * Retraso final en la animacion de subtítulos
 		 */
-		public static final int FINAL_DELAY = 1500;
+		public static final int FINAL_DELAY = 2000;
 		/**
-		 * Retraso entre medias de la animacion de subtítulos
+		 * Retraso entre medias de la animacion de un subtítulo
 		 */
-		public static final int BETWEEN_DELAY = 250;
+		public static final int BETWEEN_DELAY = 150;
 		/**
 		 * Retraso en la animacion de subtítulos
 		 */
